@@ -1,0 +1,6 @@
+/* O básico para nossa aplicação rodar */
+
+body {
+  background-color: var(--color-second);
+  font-family: 'Montserrat';
+}

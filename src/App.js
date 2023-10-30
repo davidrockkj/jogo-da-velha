@@ -4,7 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      <a href='#' className='action'>
+      <a href='#to-do' className='action'>
         sobre
       </a>
       
