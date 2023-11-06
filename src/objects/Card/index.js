@@ -3,7 +3,7 @@ import './styles.css'
 
 const Card = () => (
   <article className='card'>
-    Card
+    
   </article>
 );
 
