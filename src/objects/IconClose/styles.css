@@ -1,3 +1,19 @@
+.icon-close > .content {
+  display: inline-block;
+  text-indent: -9999px;
+}
+
 .icon-close {
-  color: var();
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background-color: red;
+}
+
+.icon-close::before {
+  content: '';
+  display: inline-block;
+  background-color: var(--color-zero);
+  width: 100%;
+  height: 4px;
 }
