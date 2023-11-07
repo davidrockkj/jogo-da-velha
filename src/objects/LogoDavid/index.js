@@ -1,11 +1,11 @@
 import React from 'react'
 import DavidRocha from '../../img/logo.png'
 
-const Logo = () => (
-  <img src={DavidRocha}
+const LogoDavid = () => (
+  <img className='logo-david' src={DavidRocha}
   alt='Logo David Rocha Dev' />);
 
-export default Logo
+export default LogoDavid;
 
 /**
  * Nem todo Object precisa de Style

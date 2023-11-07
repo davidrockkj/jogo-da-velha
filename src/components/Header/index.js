@@ -7,14 +7,14 @@
 import React from 'react'
 
 import './styles.css'
-import Logo from '../../objects/Logo'
+import LogoDavid from '../../objects/LogoDavid'
 import AboutLink from '../../objects/AboutLink'
 import Menu from '../../objects/Menu'
 
 const Header = () => {  
   return (
     <header className='header'>
-        <Logo />
+        <LogoDavid />
         <AboutLink />
         <Menu />
         
