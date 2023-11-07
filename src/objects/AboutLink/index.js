@@ -1,7 +1,7 @@
 import React from 'react';
 import './styles.css'
 
-const aboutLink = () => {
+const AboutLink = () => {
   return (
     <a href='#to-do' className='about-link'>
       sobre
@@ -9,4 +9,4 @@ const aboutLink = () => {
   )
 }
 
-export default aboutLink;
+export default AboutLink;
