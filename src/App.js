@@ -3,12 +3,10 @@ import './App.css'
 
 import Checkbox from './objects/Checkbox';
 import About from './objects/About';
-import AboutLink from './objects/AboutLink';
-import IconClose from './objects/IconClose';
-import LogoDavid from './objects/LogoDavid';
 
 import Header from './components/Header/index'
 import Hashtag from './components/Hashtag';
+import HeaderInternal from './components/HeaderInternal';
 
 const App = () => (
   <main className='app'>
@@ -17,9 +15,7 @@ const App = () => (
     <Checkbox type='checkbox' id='show' value='show' content='Mostrar eventos' />
 
     <About>
-      <LogoDavid light />
-      <AboutLink className='-light' />
-      <IconClose />
+      <HeaderInternal />
     </About>
   </main>
 );
