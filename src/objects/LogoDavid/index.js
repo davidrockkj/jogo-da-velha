@@ -1,9 +1,13 @@
 import React from 'react'
 import DavidRocha from '../../img/logo.png'
+import DavidRochaLight from '../../img/logo-light.png'
 
-const LogoDavid = () => (
-  <img className='logo-david' src={DavidRocha}
-  alt='Logo David Rocha Dev' />);
+const LogoDavid = ({ light }) => (
+  <img className='logo-david'
+    src={light ? DavidRochaLight : DavidRocha}
+    alt='Logo David Rocha Dev'
+  />
+);
 
 export default LogoDavid;
 
