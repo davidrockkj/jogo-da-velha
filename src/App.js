@@ -1,8 +1,10 @@
 import React from 'react'
 import './App.css'
+import Profile from './img/davidrocha.png'
 
 import Checkbox from './objects/Checkbox';
 import About from './objects/About';
+import AvatarProfile from './objects/AvatarProfile';
 
 import Header from './components/Header/index'
 import Hashtag from './components/Hashtag';
@@ -16,6 +18,7 @@ const App = () => (
 
     <About>
       <HeaderInternal />
+      <AvatarProfile src={Profile} alt='Imagem David Rocha' />
     </About>
   </main>
 );
