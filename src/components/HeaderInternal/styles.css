@@ -1,0 +1,11 @@
+.header-internal {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: hidden;
+}
+
+.header-internal > .about-link {
+  margin-left: auto;
+  margin-right: 10px;
+}
