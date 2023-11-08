@@ -53,11 +53,14 @@ Develop a Tic Tac Toe game and an 'About Me' responsive using React JS.
 
 
 ## Screenshot
-<div display="grid" width="100%" grid-template-columns="repeat(5, 1fr)" grid-template-rows="repeat(5, 1fr)" >
-  <img src="src/Screenshot/mobile1.png">
-  <img src="src/Screenshot/mobile2.png">
-  <img src="src/Screenshot/mobile3.png">
-</div>
+
+<table cellpadding="0">
+  <tr style="padding: 0">
+    <td valign="top"><img height="200" src="src/Screenshot/mobile1.png"/></td>
+    <td valign="top"><img height="200" src="src/Screenshot/mobile2.png"/></td>
+    <td valign="top"><img height="200" src="src/Screenshot/mobile3.png"/></td>
+  </tr>
+</table>
 
 
 
